@@ -2,13 +2,16 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.ToString;
 
+import java.util.List;
+
 @AllArgsConstructor
 @Getter
 @ToString
 public class Cours {
     private int id;
-    Label label;
+    private String label;
     private int credits;
-    Enseignants enseignant;
+    private Enseignants enseignant;
+    private List<Examens> exams;
 
 }
