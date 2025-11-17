@@ -9,8 +9,8 @@ public class Etudiant extends User{
     private String groupe;
     private Tuteurs tuteur;
 
-    public Etudiant(String nom, String prenom, Date dateNaissance, String email, String telephone, String groupe, Tuteurs tuteur) {
-        super(nom, prenom, dateNaissance, email, telephone);
+    public Etudiant(int id, String nom, String prenom, Date dateNaissance, String email, String telephone, String groupe, Tuteurs tuteur) {
+        super(id, nom, prenom, dateNaissance, email, telephone);
         this.groupe = groupe;
         this.tuteur = tuteur;
     }

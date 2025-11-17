@@ -9,6 +9,7 @@ import java.util.Date;
 @ToString
 
 public class User {
+    protected int id;
     protected String nom;
     protected String prenom;
     protected Date dateNaissance;

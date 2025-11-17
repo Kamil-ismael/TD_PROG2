@@ -6,8 +6,8 @@ import java.util.Date;
 public class Tuteurs extends User{
     String descriptionEtudiant;
 
-    public Tuteurs(String nom, String prenom, Date dateNaissance, String email, String telephone, String descriptionEtudiant) {
-        super(nom, prenom, dateNaissance, email, telephone);
+    public Tuteurs(int id, String nom, String prenom, Date dateNaissance, String email, String telephone, String descriptionEtudiant) {
+        super(id, nom, prenom, dateNaissance, email, telephone);
         this.descriptionEtudiant = descriptionEtudiant;
     }
 }
